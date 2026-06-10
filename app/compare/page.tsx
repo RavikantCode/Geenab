@@ -684,7 +684,8 @@ function ComparePageInner() {
                   {machines.map((m) => {
                     const raw = m[spec.key];
                     const val = raw === null ? "—" : String(raw);
-                    const highlight = getHighlight(spec.key, raw);
+                    const normalizedRaw = (typeof raw === 'string' || typeof raw === 'number') ? raw : null;
+                    const highlight = getHighlight(spec.key, normalizedRaw);
                     return (
                       <div
                         key={m.id}
