@@ -30,7 +30,7 @@ interface Equipment {
   fuelConsumption: string;
 }
 
-export const ALL_EQUIPMENT: Equipment[] = [
+const ALL_EQUIPMENT: Equipment[] = [
   {
     id: 1,
     category: "Excavators",
