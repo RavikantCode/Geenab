@@ -147,9 +147,10 @@ export default function SiteFooter() {
                     REGISTERED OFFICE
                   </span>
                   <p className="text-sm leading-relaxed" style={{ color: "#d1d5db" }}>
-                    Plot No. 42, Industrial Area Phase II,<br />
-                    Turbhe, Navi Mumbai,<br />
-                    Maharashtra 400705
+                    Parihar Apartment,Patel Estate Rd,<br />
+                    Near Amboli Police Station,BR Nagar,<br />
+                    Jogeshwari (West), Mumbai,<br/>
+                    Maharashtra 401102
                   </p>
                 </div>
 
@@ -162,13 +163,13 @@ export default function SiteFooter() {
                       EMAIL:
                     </span>
                     <a
-                      href="mailto:ops@geenabinfra.com"
+                      href="mailto:info@geenabinfra.com"
                       className="transition-colors"
                       style={{ color: "#d1d5db" }}
                       onMouseEnter={(e) => (e.currentTarget.style.color = "#FF5C00")}
                       onMouseLeave={(e) => (e.currentTarget.style.color = "#d1d5db")}
                     >
-                      ops@geenabinfra.com
+                      info@geenabinfra.com
                     </a>
                   </p>
                   <p className="text-sm flex items-center gap-2 text-white">
@@ -179,13 +180,13 @@ export default function SiteFooter() {
                       TEL:
                     </span>
                     <a
-                      href="tel:+912245009000"
+                      href="tel:+91-9987168792"
                       className="transition-colors"
                       style={{ color: "#d1d5db" }}
                       onMouseEnter={(e) => (e.currentTarget.style.color = "#FF5C00")}
                       onMouseLeave={(e) => (e.currentTarget.style.color = "#d1d5db")}
                     >
-                      +91 22 4500 9000
+                      +91-9987168792
                     </a>
                   </p>
                 </div>
